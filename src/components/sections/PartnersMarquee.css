@@ -1,0 +1,29 @@
+.partners-marquee-wrapper {
+  width: 100%;
+  overflow: hidden;
+  background: transparent;
+  padding: 24px 0;
+}
+.partners-marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee 18s linear infinite;
+}
+.partner-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 180px;
+  margin: 0 40px;
+}
+.partner-logo img {
+  max-height: 160px;
+  min-width: 160px;
+  max-width: 190px;
+  width: 100%;
+  display: block;
+}
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
