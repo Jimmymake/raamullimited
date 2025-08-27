@@ -108,7 +108,7 @@ class Secondary extends React.Component {
               <div className="center-content">
                 <h3 className="mt-16 mb-8">Join our newsletter</h3>
                 <p className="text-sm">
-                  Magnis dis parturient montes nascetur. Quam quisque id diam vel quam integer.
+                  {/* Magnis dis parturient montes nascetur. Quam quisque id diam vel quam integer. */}
                 </p>
               </div>
               <form style={modalFormStyle}>
